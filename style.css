@@ -17,3 +17,53 @@ h1 {
     color: #fff;
     margin-bottom: 20px;
 }
+
+.key {
+    width: 80px;
+    height: 80px;
+    border: 2px solid #fff;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.key.active {
+    border: 2px solid #ff0;
+    color: #ff0;
+}
+
+.composer {
+    width: 260px;
+    margin-top: 20px;
+}
+
+.composer #input {
+    width: 100%;
+    outline: none;
+    font-size: 17px;
+    padding: 10px 15px;
+}
+
+.composer button {
+    width: 100%;
+    height: 40px;
+    background: none;
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.composer button:hover {
+    background-color: rgb(0, 0, 0, 0.2);
+}
+
+footer {
+    margin-top: 20px;
+    color: #fff;
+    font-size: 13px;
+}
