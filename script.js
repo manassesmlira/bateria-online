@@ -32,7 +32,7 @@ function playSound(sound) {
         }, 300 )
     }
 }
-
+                                    let teste=teste-teste
 
 function playComposition(songArray) {
     let wait = 0
